@@ -78,7 +78,7 @@ if (!empty($ordered_items)) {
 
 //redirect to the main ordering dashboard when Start Again is clicked
 document.getElementById('start-again-btn').addEventListener('click', () => {
-    window.location.href = 'index.php';
+    window.location.href = 'maindashboard.php';
 });
 
 </script>
