@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if ($user['role'] == 'management') {
             header("Location: admindashboard.php"); //takes the user to admin dashboard if their role is 'management'
         } else {
-            header("Location: normaldashboard.php"); //this takes the normal user to normal dashboard
+            header("Location: index.php"); //this takes the normal user to normal dashboard
         }
         exit();
     } else {
